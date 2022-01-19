@@ -2,7 +2,9 @@ from setuptools import setup, find_packages
 
 
 setup(
+
     name='clock_keeper',
+    description='A very minimalistic python module that lets you track the time your code snippets take to run.',
     version='0.6',
     license='MIT',
     author="Rajdeep Biswas",
