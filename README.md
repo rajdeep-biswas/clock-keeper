@@ -9,7 +9,7 @@ pip install clock-keeper
 ## Usage example is as follows -
 #### Importing Class from module.
 ```python
-from clock_keeper import Timer
+from clock_keeper.utility import Timer
 ```
 
 #### Instantiating timer object.
