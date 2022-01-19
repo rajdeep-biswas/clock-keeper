@@ -4,6 +4,7 @@ Author: r4jdeepbiswas@gmail.com
 
 
 import datetime
+import logging
 
 
 class Timer:
@@ -18,16 +19,16 @@ class Timer:
 
     def markStart(self):
         """
-        Marks start of event and prints out timestamp.
+        Marks start of event and logging.infos out timestamp.
         """
         self.startts = datetime.datetime.now()
-        print("started processing:", self.startts)
+        logging.info("started processing:", self.startts)
     
 
     def markEnd(self):
         """
-        Marks end of event and prints out timestamp and the total duration that was taken.
+        Marks end of event and logging.infos out timestamp and the total duration that was taken.
         """
         self.endts = datetime.datetime.now()
-        print("done processing:", self.endts)
-        print("this operation took:", self.endts - self.startts)
+        logging.info("done processing:", self.endts)
+        logging.info("this operation took:", self.endts - self.startts)
