@@ -17,12 +17,12 @@ from clock_keeper import Timer
 timer = Timer()
 ```
 
-#### Starting and end keeping time.
+#### Starting and ending keeping time.
 ```python
 timer.markStart()
 
 for loop in lengthy_task:
-    # Finding the meaning of life.
+    # Computing the meaning of life.
 
 timer.markEnd()
 ```
