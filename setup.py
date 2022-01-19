@@ -5,7 +5,7 @@ setup(
 
     name='clock_keeper',
     description='A very minimalistic python module that lets you track the time your code snippets take to run.',
-    version='0.6',
+    version='0.6.1',
     license='MIT',
     author="Rajdeep Biswas",
     author_email='r4jdeepbiswas@gmail.com',
