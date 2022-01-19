@@ -9,7 +9,7 @@ setup(
 
     name='clock_keeper',
     description='A very minimalistic python module that lets you track the time your code snippets take to run.',
-    version='0.7.1',
+    version='0.7.2',
     long_description=long_description,
     long_description_content_type='text/markdown',
     license='MIT',
