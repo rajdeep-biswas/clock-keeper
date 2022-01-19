@@ -1,5 +1,5 @@
-"""from . import Timer
+from . import Timer
 
 __all__ = [
     'Timer'
-]"""
+]
