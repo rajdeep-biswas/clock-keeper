@@ -7,6 +7,9 @@ import datetime
 import logging
 
 
+logging.basicConfig(level=logging.DEBUG)
+
+
 class Timer:
     
     def __init__(self):
@@ -19,16 +22,16 @@ class Timer:
 
     def markStart(self):
         """
-        Marks start of event and logging.infos out timestamp.
+        Marks start of event and logs out timestamp.
         """
         self.startts = datetime.datetime.now()
-        logging.info("started processing:", self.startts)
+        logging.debug("started processing: " + str(self.startts))
     
 
     def markEnd(self):
         """
-        Marks end of event and logging.infos out timestamp and the total duration that was taken.
+        Marks end of event and logs out timestamp and the total duration that was taken.
         """
         self.endts = datetime.datetime.now()
-        logging.info("done processing:", self.endts)
-        logging.info("this operation took:", self.endts - self.startts)
+        logging.debug("done processing:" + str(self.endts))
+        logging.debug("this operation took:" + str(self.endts - self.startts))
